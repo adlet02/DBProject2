@@ -1,0 +1,14 @@
+<table border = 1>
+    {% for specialize in specializeDetails %}
+    <tr>
+        <td> {{specialize[0]}} </td>
+        <td> {{specialize[1]}} </td>               
+    </tr>
+    {% endfor %}
+</table>
+<br>
+<form action="/"> 
+    <button type="submit" class="btn">
+        <span class="btn_content">Return to homepage</span>
+    </button>
+</form>   

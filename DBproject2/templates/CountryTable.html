@@ -1,0 +1,14 @@
+<table border = 1>
+    {% for country in countryDetails %}
+    <tr>
+        <td> {{country[0]}} </td>
+        <td> {{country[1]}} </td>
+    </tr>
+    {% endfor %}    
+</table>
+<br>
+<form action="/"> 
+    <button type="submit" class="btn">
+        <span class="btn_content">Return to homepage</span>
+    </button>
+</form>   

@@ -1,0 +1,14 @@
+<table border = 1>
+    {% for diseasetype in diseasetypeDetails %}
+    <tr>
+        <td> {{diseasetype[0]}} </td>
+        <td> {{diseasetype[1]}} </td>
+    </tr>
+    {% endfor %}
+</table>
+<br>
+<form action="/"> 
+    <button type="submit" class="btn">
+        <span class="btn_content">Return to homepage</span>
+    </button>
+</form>   

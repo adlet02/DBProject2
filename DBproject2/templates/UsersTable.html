@@ -1,0 +1,18 @@
+<table border = 1>
+    {% for users in usersDetails %}
+    <tr>
+        <td> {{users[0]}} </td>
+        <td> {{users[1]}} </td>
+        <td> {{users[2]}} </td>
+        <td> {{users[3]}} </td>
+        <td> {{users[4]}} </td>
+        <td> {{users[5]}} </td>            
+    </tr>
+    {% endfor %}
+</table>
+<br>
+<form action="/"> 
+    <button type="submit" class="btn">
+        <span class="btn_content">Return to homepage</span>
+    </button>
+</form>   
